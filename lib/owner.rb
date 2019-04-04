@@ -17,5 +17,6 @@ class Owner
   
   def initialize(species)
     @species = species
+    self.all << Owner
   end
 end
