@@ -19,4 +19,8 @@ class Owner
     @species = species
     self.class.all << self
   end
+  
+  def say_species
+    "I am a #{species}."
+  end
 end
